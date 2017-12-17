@@ -1,0 +1,36 @@
+
+
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+}
+
+body {
+    text-align: center;
+    background-color: dimgrey;
+}
+
+img {
+    margin-top: 50px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    border-radius: var(--radius);
+}
+
+.h1 {
+    color: var(--base);
+}
+
+h2 {
+    font-size: 60px;
+}
+
+input {
+    margin-right: 10px;
+}
+
+label {
+    font-size: 36px;
+}
